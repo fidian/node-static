@@ -1,7 +1,7 @@
 {
-  "name": "node-static",
+  "name": "@fidian/node-static",
   "description": "simple, compliant file streaming module for node",
-  "url": "http://github.com/cloudhead/node-static",
+  "url": "http://github.com/fidian/node-static",
   "keywords": [
     "http",
     "static",
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/cloudhead/node-static"
+    "url": "http://github.com/fidian/node-static"
   },
   "main": "./lib/node-static",
   "scripts": {
@@ -39,9 +39,9 @@
     "node": ">= 0.4.1"
   },
   "bugs": {
-    "url": "https://github.com/cloudhead/node-static/issues"
+    "url": "https://github.com/fidian/node-static/issues"
   },
-  "homepage": "https://github.com/cloudhead/node-static",
+  "homepage": "https://github.com/fidian/node-static",
   "directories": {
     "example": "examples",
     "test": "test"

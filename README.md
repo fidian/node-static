@@ -7,11 +7,13 @@ node-static understands and supports *conditional GET* and *HEAD* requests.
 node-static was inspired by some of the other static-file serving modules out there,
 such as node-paperboy and antinode.
 
+This is a forked repository and published as a scoped package until the original is updated.
+
 Synopsis
 --------
 
 ```js
-var static = require('node-static');
+var static = require('@fidian/node-static');
 
 //
 // Create a node-static server instance to serve the './public' folder
@@ -61,7 +63,7 @@ To serve files under a directory, simply call the `serve` method on a `Server` i
 the HTTP request and response object:
 
 ```js 
-var static = require('node-static');
+var static = require('@fidian/node-static');
 
 var fileServer = new static.Server('./public');
 
@@ -103,7 +105,7 @@ An optional callback can be passed as last argument, it will be called every tim
 has been served successfully, or if there was an error serving the file:
 
 ```js
-var static = require('node-static');
+var static = require('@fidian/node-static');
     
 var fileServer = new static.Server('./public');
 
@@ -203,7 +205,7 @@ Command Line Interface
 ### Installation #
 
 ```sh
-$ npm install -g node-static
+$ npm install -g @fidian/node-static
 ```
 
 ### Example Usage #
